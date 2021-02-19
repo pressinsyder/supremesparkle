@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Supreme Sparkle!</a>
         </h1>
 
         <p className={styles.description}>
@@ -60,6 +60,10 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+     
+<script src="/__/firebase/8.2.7/firebase-app.js"></script>
+
+<script src="/__/firebase/init.js"></script>
     </div>
   )
 }
